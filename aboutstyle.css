@@ -1,0 +1,109 @@
+body {
+    font-family: "SpoqaHanSansNeo-Thin";
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://neungju.hs.jne.kr/user/neungju_hs/visual/upload_f13f6c0a_857d_4b7f_8a49_6aa676e4b9dd_00001153_re.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Thin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes riseup {
+    from {
+        transform: translate(-50%, -40%);
+    }
+    to {
+        transform: translate(-50%, -60%);
+    }
+}
+
+.h {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 65%);
+    opacity: 0;
+    animation: fade 1s forwards, riseup 1s forwards;
+}
+
+.topic {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 70%);
+    opacity: 0;
+    animation: fade 1s forwards, riseup 1s forwards;
+    animation-delay: 0.3s;
+}
+
+.p {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, 80%);
+    opacity: 0;
+    animation: fade 1s forwards, riseup 1s forwards;
+    animation-delay: 0.6s;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 96px;
+    color: #fff;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
