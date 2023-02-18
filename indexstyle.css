@@ -47,7 +47,6 @@ body {
     transform: translate(-50%, -50%);
     opacity: 0;
     animation: fade 1s forwards, riseup 1s forwards;
-	text-align: center;
     animation-delay: 0.3s;
 }
 
@@ -98,6 +97,7 @@ section {
 
 p {
 	font-size: 40px;
+	text-align: center;
 	color: #fff;
 	position: absolute;
 	top: 55%;
