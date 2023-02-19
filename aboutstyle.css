@@ -50,19 +50,9 @@ body {
     animation-delay: 0.3s;
 }
 
-.p {
-    position: absolute;
-    top: 78%;
-    left: 50%;
-    transform: translate(-50%, 80%);
-    opacity: 0;
-    animation: fade 1s forwards, riseup 1s forwards;
-    animation-delay: 0.6s;
-}
-
 .info {
     position: absolute;
-    top: 100%;
+    top: 150%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
@@ -108,12 +98,5 @@ h3 {
 p {
     font-size: 25px;
     color: #fff;
-    text-align: center;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
     text-align: center;
 }
