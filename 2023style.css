@@ -47,6 +47,7 @@ body {
 
 .title {
     animation: fade 1s forwards, riseup 1s forwards;
+    margin-bottom: 100px;
 }
 
 header {

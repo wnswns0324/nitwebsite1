@@ -34,9 +34,8 @@ body {
 .year {
 	position: absolute;
 	left: 50%;
-	top: 40%;
+	top: 35%;
 	transform: translate(-50%, -50%);
-	margin: auto;
 	opacity: 0;
     animation: fade 1s forwards, riseup 1s forwards;
 }
@@ -44,7 +43,7 @@ body {
 .butt22 {
 	display: inline-block;
 	text-align: center;
-	margin: 100px auto;
+	margin: 120px auto;
 	padding: 14px 35px;
 	font-size: 20px;
 	background-color: rgba(0, 0, 0, 0.2);
@@ -64,7 +63,7 @@ body {
 
 .p {
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
@@ -101,6 +100,7 @@ h1 {
 	position: absolute;
 	top: 40%;
 	left: 50%;
+	text-align: center;
 	transform: translate(-50%, -50%);
 }
 
@@ -123,6 +123,7 @@ p {
 	position: absolute;
 	top: 55%;
 	left: 50%;
+	text-align: center;
 	transform: translate(-50%, -50%);
 }
 

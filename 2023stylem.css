@@ -1,11 +1,11 @@
 .container {
-    display: flex;
+    display: block;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    max-width: 800px;
+    max-width: device-width;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 100px;
     padding: 50px;
     background-color: rgba(0, 0, 0, 0.3);
     animation: fade 1s;
@@ -47,6 +47,10 @@ body {
 
 .title {
     animation: fade 1s forwards, riseup 1s forwards;
+}
+
+.img {
+    margin: auto;
 }
 
 header {
@@ -95,19 +99,18 @@ h2 {
 }
 
 img {
-    max-width: 500px;
+    max-width: 300px;
     height: auto;
-    margin-right: 50px;
-  }
+}
 
 h1 {
-  font-size: 36px;
+  font-size: 20px;
   margin-bottom: 20px;
   color: #fff;
 }
 
 p {
-  font-size: 18px;
+  font-size: 13px;
   line-height: 1.5;
   color: #fff;
 }
